@@ -2,7 +2,7 @@
 
 
 def prime?(num)
-i = 3
+range = (2..num-1)
 if num  == 2 || num == 3
   true
 elsif num <= 0
