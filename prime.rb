@@ -7,8 +7,8 @@ if num  == 2 || num == 3
   true
 elsif num <= 0
   false
-elsif num > 0 
-   range.any? {|number| num % number == 0 false}
+elsif !range.any? {|number| num % number == 0}
+  false 
  else
    true 
  end
