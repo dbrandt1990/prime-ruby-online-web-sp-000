@@ -4,11 +4,10 @@
 def prime?(num)
 i = 3
 if num  == 2 || num == 3
-  puts 'its a 2  or 3'
   true
 elsif num <= 0
   false
-else
+elsif num > 0
 while i < num
  if num % i == 0 
    false 
